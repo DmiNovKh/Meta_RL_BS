@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer {
+  background: #42006A;
+  padding: 100px 0px 120px;
+}
+footer .logo_coop {
+  transition: 0.5s;
+}
+footer .logo_coop p {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-top: 70px;
+}
+footer ul {
+  opacity: 0;
+  animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+footer ul:first-of-type {
+  animation-delay: 0.5s;
+}
+footer ul:nth-child(2) {
+  animation-delay: 1s;
+}
+footer ul:nth-child(3) {
+  animation-delay: 1.5s;
+}
+footer ul:last-of-type {
+  animation-delay: 2s;
+}
+footer li {
+  margin-bottom: 29px;
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+footer li:hover {
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+footer li a {
+  text-decoration: none !important;
+  color: #FFFFFF !important;
+}
+footer .pow_dev a {
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .social li {
+  margin: 0 6px;
+}
+footer .social img {
+  padding: 8px;
+  background-color: #FFFFFF;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+footer .social img:hover {
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=footer.css.map */

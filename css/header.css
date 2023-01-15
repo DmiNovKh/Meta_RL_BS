@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000000;
+  padding: 34px 140px 0px 140px;
+}
+header .logo_att a {
+  text-decoration: none;
+  margin-right: 32px;
+}
+header ul {
+  list-style: none;
+}
+header ul li img {
+  padding: 8px;
+  background-color: #FFFFFF;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+header ul li img:hover {
+  border-radius: 50%;
+}
+header .list_marg a {
+  margin-right: 12px;
+  margin-left: 12px;
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  transition: 0.5s;
+}
+header .list_marg a:hover {
+  text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+}
+
+/*# sourceMappingURL=header.css.map */

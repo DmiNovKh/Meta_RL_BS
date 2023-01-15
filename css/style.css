@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #000000;
+}
+
+.meta_label .col-md-5 {
+  margin: auto;
+  padding-left: 77px;
+}
+.meta_label .col-md-5 h1 {
+  font-family: "Audiowide", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 43px;
+}
+.meta_label .col-md-5 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 115px;
+}
+.meta_label .col-md-5 a {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 17px 40px 27px;
+  background: #8DFD1B;
+  display: inline-block;
+  cursor: pointer;
+}
+.meta_label img {
+  width: 100%;
+}
+
+.wave_nft {
+  padding: 120px 0;
+}
+.wave_nft h3 {
+  font-family: "Audiowide", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 66px;
+  margin-bottom: 41px;
+}
+.wave_nft img {
+  width: 100%;
+  display: block;
+}
+.wave_nft h5 {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+  margin-left: 22px;
+  margin-bottom: 27px;
+}
+.wave_nft h5:after {
+  content: "";
+  width: 2px;
+  height: 124px;
+  background-color: #8DFD1B;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: inline-block;
+}
+.wave_nft p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #FFFFFF;
+  margin-bottom: 36px;
+}
+.wave_nft a {
+  padding: 10px 33px 16px;
+  border: 1px solid #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.team_cards .meta_card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  text-align: center;
+  margin-bottom: 17px;
+}
+.team_cards .meta_card h5 {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 19px 0 18px;
+}
+.team_cards .meta_card p:first-of-type {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8DFD1B;
+}
+.team_cards .meta_card p:last-of-type {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+.team_cards .meta_card a img {
+  padding: 8px;
+  background-color: #FFFFFF;
+  margin: 0 4px 22px;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.team_cards .meta_card a img:hover {
+  border-radius: 50%;
+}
+
+.mrl_story .container {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+  max-height: 538px;
+}
+.mrl_story .tab-cont {
+  float: left;
+  background-color: #000000;
+}
+.mrl_story .tab-cont button {
+  background-color: inherit;
+  font-family: "DM Mono", monospace;
+  padding: 25px 134px 31px 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.mrl_story .tab-cont button:hover {
+  background-color: #ccc;
+}
+.mrl_story .tab-content {
+  background-color: #222222;
+  height: 100%;
+  float: left;
+  width: 70%;
+  animation: anime 1s;
+}
+.mrl_story .tab-content h4 {
+  font-family: "DM Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  color: #8DFD1B;
+}
+.mrl_story .tab-content p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+.mrl_story .tab-cont .but.active {
+  background-color: #222222;
+  color: #8DFD1B;
+}
+@keyframes anime {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
